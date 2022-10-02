@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+  <link
+  href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;600;700&display=swap"
+  rel="stylesheet"
+/>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>VIT BHOPAL homepage</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;600;700&display=swap"
+    rel="stylesheet"
+  />
+  <link
+    rel="stylesheet"
+    href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+  />
+  <link
+  href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;600;700&display=swap"
+  rel="stylesheet"
+/>
+</head>
+  <body>
+
+    <!--------Header page-------->
+        <section class="header" id="header">
+          <nav>
+            <!-- "{{ url_for('static', filename='student.jpeg') }}" -->
+            <a href="https://vitbhopal.ac.in/"><img src="{{ url_for('static', filename='images/logo.png') }}" alt="" /></a>
+            <div class="nav-links" id="navLinks">
+              <i class="fa fa-times" onclick="hideMenu()"></i>
+              <ul>
+                <li><a href="#header">HOME</a></li>
+                <li><a href="#about-us">ABOUT US</a></li>
+                <li><a href="#course">COURSES</a></li>
+                <li><a href="#campus">CAMPUS</a></li>
+                <li><a href="#contact">CONTACT</a></li>
+              </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+          </nav>
+          <div class="text">
+            <!-- {{ url_for('static', filename='images/chatbox-icon.svg') }} -->
+            <img src="{{ url_for('static', filename='images/Chancellor.png') }}" alt="Chancellor" />
+            <h1>Dr. G Viswanathan</h1>
+            <h2>Founder &#8211; Chancellor of VIT University</h2>
+            <p>
+              The VIT legacy, which started from Vellore Engineering College 35
+              years ago to four Universities in India, today, is a result of
+              constant efforts to impart high quality of education. The Govt. of
+              India has recognized VIT as No. 1 Private Institution for Innovation,
+              ARIIA 2019, and the recent recognition, as an Institution of Eminence,
+              has paved a way to focus more on research with international
+              collaborations to move up in the global ranking and contribute in the
+              capacity building of our nation.
+            </p>
+            <a href="https://vitbhopal.ac.in/" target="_blank" class="visit-btn">Visit Us To Know More</a>
+          </div>
+        </section>
+<!--------About us page-------->
+        <section class="about-us" id="about-us">
+          <h1>About Us</h1>
+          <div class="row">
+            <div class="about-col">
+              <h2>Get the VIT Edge</h2>
+              <p>VIT Bhopal University, envisioned with a new global outlook will empower its aspirants to attain excellence through learning. The comprehensive teaching methodology designed by the University, redeﬁnes the approach to learning, educating and building knowledge-based societies in the country. Collaboration with reputed national and international organisations and strategic partnerships with universities around the world are being established, to prepare a globally competent generation of professionals.</p>
+              <a href="https://vitbhopal.ac.in/" target="_blank" class="visit-btn exlpore-btn">EXPLORE MORE</a>
+            </div>
+            <div class="about-col">
+              <img src="{{ url_for('static', filename='images/student.jpeg') }}" alt="students pic">
+            </div>
+          </div>
+          
+    
+        </section>
+    
+<!--------Courses page-------->
+        <section class="course" id="course">
+          <h1>Courses We Offer</h1>
+          <p></p>
+    
+          <div class="row">
+            <div class="course-col" >
+              <h3>Cyber Security </h3>
+              <p>
+                In next few years, India will require millions of Cyber Security
+                Professionals to keep the people, organizations and even the economy
+                of India, safe and protected against these high-tech crimes.
+              </p>
+            </div>
+            <div class="course-col">
+              <h3>Bio Engineering</h3>
+              <p>
+                The School of Bioengineering is a newly developed school with a
+                focus on integrated approach to solve problems on biomedical and
+                biotechnology.
+              </p>
+            </div>
+            <div class="course-col">
+              <h3>Artificial Intelligence & Machine Learning</h3>
+              <p>
+                Artificial Intelligence also known as Machine Intelligence
+                essentially deals with developing super smart machines, tools,
+                devices that can understand, predict, analyze for finding solutions
+                to the given task.
+              </p>
+            </div>
+            <div class="course-col">
+              <h3>Aerospace Engineering</h3>
+              <p>
+                Aerospace Engineering is in the developing stage, the branch is
+                equipped with all basic laboratories and central workshop and flight
+                integration hub, aerodynamics lab and aerospace structures lab will
+                be fully established soon.
+              </p>
+            </div>
+          </div>
+        </section>
+    
+<!--------Campus page-------->
+        <section class="campus" id="campus">
+          <h1>Our Campus</h1>
+          <div class="row">
+            <div class="campus-col">
+              <!-- "{{ url_for('static', filename='images/student.jpeg') }}" -->
+              <img src="{{ url_for('static', filename='images/vitVellore.jpeg') }}" alt=""/>
+              <div class="layer">
+                <a href="https://vitbhopal.ac.in/" target="_blank"><h3>VELLORE</h3></a>
+              </div>
+            </div>
+            <div class="campus-col">
+              <!-- {{ url_for('static', filename='images/student.jpeg') }} -->
+              <img src="{{ url_for('static', filename='images/vitChennai.jpeg') }}" alt=""/>
+              <div class="layer">
+                <a href="https://chennai.vit.ac.in/" target="_blank"><h3>CHENNAI</h3></a>
+              </div>
+            </div>
+            <div class="campus-col">
+              <!-- {{ url_for('static', filename='images/student.jpeg') }} -->
+              <img src="{{ url_for('static', filename='images/vitAP.jpeg') }}" alt=""/>
+              <div class="layer">
+                <a href="https://vitap.ac.in/" target="_blank"><h3>AMARAVATI</h3></a>
+              </div>
+            </div>
+        </section>
+    
+<!--------Contact page-------->
+        <section class="contact" id="contact">
+          <h1>Contact With Us</h1>
+          <div class="contact-box">
+            <div class="contact-left">
+              <h3>Reach us</h3>
+              <table>
+                <tr>
+                  <td>Email</td>
+                  <td>info@vitbhopal.ac.in</td>
+                </tr>
+                <tr>
+                  <td>Phone No.</td>
+                  <td>075602 54500</td>
+                </tr>
+                <tr>
+                  <td>Address</td>
+                  <td>Kotri Kalan, Ashta, near Indore Road,<br>Bhopal, Madhya Pradesh 466114</td>
+                </tr>
+              </table>
+            </div>
+            <div class="contact-right">
+              <h3>Send your mail</h3>
+              <form>
+                <div class="input-row">
+                  <div class="input-group">
+                    <label>Name</label>
+                    <input type="text" placeholder="Naruto Uzamaki">
+                  </div>
+                  <div class="input-group">
+                    <label>Phone no.</label>
+                    <input type="text" placeholder="+91 1234 567890">
+                  </div>
+                </div>
+                <div class="input-row">
+                  <div class="input-group">
+                    <label>Email</label>
+                    <input type="email" placeholder="VitBhopal@gmail.com">
+                  </div>
+                  <div class="input-group">
+                    <label>Subject</label>
+                    <input type="text" placeholder="Type subject">
+                  </div>
+                </div>
+                <div>
+                  <label>Comment</label>
+                  <textarea rows="6" placeholder="Type your comments..."></textarea>
+                </div>
+              </form>
+    
+              <button type="submit" class="submit">SUBMIT</button>
+    
+            </div>
+          </div>
+        </section>
+
+<!--------chatbot section-------->
+    <div class="container">
+      <div class="chatbox">
+        <div class="chatbox__support">
+          <div class="chatbox__header">
+            <div class="chatbox__image--header">
+              <img
+                src="https://img.icons8.com/color/48/000000/circled-user-female-skin-type-5--v1.png"
+                alt="image"
+              />
+            </div>
+            <div class="chatbox__content--header">
+              <h4 class="chatbox__heading--header">Miss Stella</h4>
+              <p class="chatbox__description--header">
+                Hi. My name is Stella. How can I help you?
+              </p>
+            </div>
+            <div class="drop_down_language">
+              <form method="POST" action="{{ url_for('test') }}">
+                  <select name="comp_select">
+                    {% for o in data %}
+                    <option value="{{ o.name }}">{{ o.name }}</option>
+                    {% endfor %}
+                  </select>
+                
+                  <button type="submit" class="btn btn-default">Submit</button>
+                </form>
+          </div>
+          </div>
+          <div class="chatbox__messages">
+            <div></div>
+          </div>
+          <div class="chatbox__footer">
+            <input type="text" placeholder="Type your message here..." />
+            <button class="chatbox__send--footer send__button">Send</button>
+          </div>
+        </div>
+        <div class="chatbox__button">
+          <!-- {{ url_for('static', filename='images/student.jpeg') }} -->
+          <button><img src="{{ url_for('static', filename='images/chatbox-icon.svg') }}" /></button>
+        </div>
+      </div>
+    </div>
+
+<!--------javascript for toggle menu-------->
+        <script>
+          var navLinks = document.getElementById("navLinks");
+    
+          function showMenu() {
+            navLinks.style.right = "0";
+          }
+    
+          function hideMenu() {
+            navLinks.style.right = "-200px";
+          }
+        </script>
+
+<script>
+  $SCRIPT_ROOT = {{ request.script_root|tojson }};
+</script>
+<script type="text/javascript" src="{{ url_for('static', filename='app.js') }}"></script>
+  </body>
+</html>

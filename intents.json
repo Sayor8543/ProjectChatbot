@@ -1,0 +1,309 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "How are you",
+        "Is anyone there?",
+        "Hello",
+        "Good day",
+        "Hello,Welcome to our student helpline portal. How may i help you"
+        
+
+      ],
+      "responses": [
+        "Hey :-)",
+        "Hello, thanks for visiting",
+        "Hi there, what can I do for you?",
+        "Hi there, how can I help?"
+       
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye"],
+      "responses": [
+        "See you later, thanks for visiting",
+        "Have a nice day",
+        "Bye! Come back again soon."
+        
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+      "responses": ["Happy to help!", "Any time!", "My pleasure"]
+    },
+    {
+      "tag": "items",
+      "patterns": [
+        "Which items do you have?",
+        "What kinds of items are there?",
+        "What do you sell?"
+      ],
+      "responses": [
+        "We sell coffee and tea",
+        "We have coffee and tea"
+       
+      ]
+    },
+    {
+      "tag": "payments",
+      "patterns": [
+        "Do you take credit cards?",
+        "Do you accept Mastercard?",
+        "Can I pay with Paypal?",
+        "Are you cash only?"
+      ],
+      "responses": [
+        "We accept VISA, Mastercard and Paypal",
+        "We accept most major credit cards, and Paypal",
+        ""
+      ]
+    },
+    {
+      "tag": "delivery",
+      "patterns": [
+        "How long does delivery take?",
+        "How long does shipping take?",
+        "When do I get my delivery?"
+      ],
+      "responses": [
+        "Delivery takes 2-4 days",
+        "Shipping takes 2-4 days"
+        
+      ]
+    },
+    {
+      "tag": "funny",
+      "patterns": [
+        "Tell me a joke!",
+        "Tell me something funny!",
+        "Do you know a joke?"
+      ],
+      "responses": [
+        "Why did the hipster burn his mouth? He drank the coffee before it was cool.",
+        "What did the buffalo say when his son left for college? \\nBison.",
+        "Why did the sun skip college? \\nIt already has a million degrees.",
+        "What do you call a test tube with a college degree? \\nA graduated cylinder.",
+        "I had to get out of the small hotel business in Europe. \\nIt was a hostel work environment.",
+        "The workers at the inn aren’t very friendly. \\nThey create a hostel environment.",
+        "Mom: What did you do at college today? \\nMark: We did a guessing game. \\nMom: But I thought you were having a math exam. \\nMark: That’s right!"
+      ]
+    },
+    {
+      "tag": "questions",
+      "patterns":[
+    "how are you doing",
+    "how are you ?",
+    "whatsapp",
+    "what are you doing"
+      ],
+      "responses":[
+        "i am fine , what about you?",
+        "Great!! , what about you?",
+        "happy as always! , what about you?"
+        
+      ]
+    },
+    {
+      "tag": "general question",
+      "patterns":[
+        "what thing you like the most?",
+        "what is your hobby?",
+        "what do you do to enhance skills?",
+        "how's your code going on?"
+      ],
+      "responses":[
+        "i love code palace",
+        "i do coding",
+        "i do parctise in daily ",
+        "Great!!"
+        
+      ]
+    },
+    {
+      "tag":"VIT campus underbelly",
+      "patterns":[
+        "what is there for food",
+        "any hotel for food",
+        "any restarant for food ",
+        "is there any food court",
+        "what's there to eat",
+        "what is here to eat"
+      ],
+      "responses":[
+        "yes!! , there is food point named underbelly",
+        "ya! , a small food point near academic block"
+        
+      ]
+    },
+    {
+      "tag": "location",
+      "patterns":[
+        "tell me the location for underbelly",
+        "what is the loaction of underbelly",
+        "location of underbelly"
+      ],
+      "responses":[
+        "opposite to academic block",
+        "near academic block"
+        
+      ]
+    },
+    {
+      "tag":"transport",
+      "patterns":[
+        "any mode of transport from hostel to academic block",
+        "what mode of transport available here?",
+        "what transport for student"
+      ],
+      "responses":[
+        "cycle and by foot only",
+        "cycle only"
+        
+
+      ]
+      
+    },
+    {
+      "tag":"proctor",
+      "patterns":[
+        "whom to address the student?",
+        "who is there to help the students ?",
+        "who help the students for general queries?",
+        "is there any personal tutor who help student for personal queries?"
+      ],
+      "responses" :[
+        "proctor will address the student",
+        "proctor",
+        "proctor help the student"
+       
+      ]
+    },
+    {
+      "tag": "proctor query",
+      "patterns":[
+        "who is my proctor ?"
+        
+      ],
+      "responses":[
+        "please check the vtop there is an option of proctor details ",
+        "just go through the vtop and check the proctor details",
+        "just check vtop"
+       
+      ]
+    },
+    {
+      "tag": "eat",
+      "patterns":[
+        "what you eat?",
+        "what you want to eat?",
+        "what you like to eat?"
+      ],
+      "responses":[
+        "I don't like to eat anything i am bot obviously",
+        "No need to eat because I am a machine"
+        
+      ]
+    },
+    {
+      "tag": "library",
+      "patterns":[
+        "when does the library open?",
+        "what's the timing of library",
+        "timing for library?",
+        "what days the library be opened?",
+        "which day library will be closed?",
+        "days and timing for open the library?",
+        "is library open for 24*7 hours"
+      ],
+      "responses":[
+        "monday-friday: 8am - 6pm\\n saturday - till 4pm\\n sunday - closed"
+      ]
+    },
+    {
+      "tag":"visa mart",
+      "patterns":[
+        "where is the visa mart in the campus?",
+        "location of visa mart?",
+        "where is the visa mart"
+      ],
+      "responses":[
+        "In the academic block\\n 1st floor\\n room no. 108"
+      ]
+    },
+    {
+      "tag": "outing",
+      "patterns":[
+        "what is the processor for outing?",
+        "how can i go for outing?",
+        "process for outing?",
+        "formalities to go for outing?"
+      ],
+      "responses":[
+        "1. Tell your parents\\n 2. Take permission by proctor\\n3. Then take permission by hostel supervisor\\n4. Take a permission slip with you signed by hostel supervisor"
+      ]
+    },
+    {
+      "tag":"summer internship",
+      "patterns":[
+        "mam i want to register for summer internship program at institute next year, how do i make sure i qualify?",
+        "how i know about the result of summer internship if i qualify or not",
+        "on which site i should know my result of summer internship?"
+      ],
+      "responses":[
+        "1. Have you read the eligibility criteria for [Institute]’s summer internship program? \\n2. You can read them on this link. Prof. J. Wilson ([Department]) handles applications for the program. \\n3. You can get in touch with him for detailed information. \\n4. Here are his contact details"
+      ]
+    },
+    {
+      "tag":"sectional holiday",
+      "patterns":[
+        "do we get the sectional holiday ?",
+        "any sectional holiday in college?",
+        "sectional holiday?",
+        "any extra holiday for religious festival?"
+      ],
+      "responses":[
+        "yes !! , here is an option for sectional holiday in college",
+        "yes!!"
+      ]
+    },
+    {
+      "tag" :"outing for student",
+       "patterns":[
+        "how many outing possible for boys and girls in a month?",
+        "how many outing for boys?",
+        "how many outing for girls?"
+       ],
+       "responses":[
+        "for girls : 1 outing in a month and for boys : 2 outing in a month"
+       ]   
+    },
+    {
+      "tag": "medical facilities",
+      "patterns":[
+        "what is the medical facilities for student?",
+        "how take care of student if he/she is in problem?",
+        "how nurse help the student?",
+        "any medical facility?"
+      ],
+      "responses":[
+        "1. There is an ambulance\n 2.you can just dial the ambulance no. to call them\n 3. you can get the ambulance no. at reception\n 4.Ambulance take the student to the hospital\n 5. and nurse or warden go along with you"
+      ]
+    },
+    {
+      "tag": "hostel",
+      "patterns":[
+        "what is the timing for closing the hostel gates?",
+        "timing for closing the gate?"
+      ],
+      "responses":[
+        "opening : 5:30 am",
+        "closing : 7:30 pm - 8:30 pm"
+      ]
+    }
+  ]
+}
